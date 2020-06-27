@@ -1,206 +1,59 @@
 *{
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box
-}   
-
-body, button{
-    font-family: 'Roboto', sans-serif;
+    background:#F2F2F2 ;
+    font-family: 'Rubik', sans-serif;   
 }
-header{
-    display: flex;
-    width: 90%;
-    height:10vh;
-    margin: auto;
-    align-items: center;
-} 
-
-.logo-container, .nav-links, .cart{
-    display: flex
+main{
+    flex: 2
 }
 
-.logo-container{
-        flex: 1;
-}
-.logo-alter{
-    width: 65px;
-}
-
-.logo{
-    font-weight: 400;
-    margin-left: 10px;
-    margin-top: 25px;
-}
-
-nav{
-    flex:2;
-}
-
-.nav-links{
-    justify-content: space-around;
-    list-style: none;    
-}
-.nav-links li a{
-    color: #5f5f79;
-    font-size: 18px;
-    text-decoration:none;
-}
-.cart{
-    flex:1; 
-    justify-content: flex-end;
-}
-.cart-alter{
-    width: 20px;   
-}
-
-.presentacion{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    min-height: 80vh;
-    align-items: center;
-}
-.introduction {
-    flex:1;
-}
-
-.intro h1{
-    font-size: 44px;
+.principal-about h1{
+    color:  #7B84DB;
+    width:60%;
+    margin-top: 15%;
+    position: absolute;
+    left: 10%;  
+    font-size: 40px;
     font-weight: 500;
-    background: linear-gradient(to right, #494969, #6f6f89);
-     /* Esses dois servem para fazem um degrade no texto*/
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-.intro p{
-    margin-top:5px;
-    font-size: 22px;
-    color: #585772;
-}
-.cta{
-    padding: 50px 0px 0px 0px;
-}
-.cta-select{
-    border: 2px solid #c36cbb;
-    background: transparent;
-    color: #c36cbb;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 16px;
-}
-.cta-add{
-    background: #c36cbb;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    color: white;
-    margin: 30px 0 0 30px
-}
-.cover{
-    flex: 1;
-    height:  60vh;
-}
-.cover img{
-    height: 100%;
-    filter: drop-shadow(0px 5px 3px black);
-    /* sombra arquivo png*/
-    animation: drop 1.5s ease;
-}
-.big-circle{
+
+.about{
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 0.5;
-    height: 80%;
+    left: 10%;
+    width: 40%;
+    margin-top:20%;
+    font-weight: 300;
 }
 
-.med-circle{
+.social-link{
     position: absolute;
-    top: 30%;
-    right: 30%;
-    z-index: -1;  
-    height: 60%;
-    opacity: 0.4;
+    left: 10%;
+    width: 20%;
+    margin-top: 25%;
 }
 
-.small-circle{
-    position: absolute;
-    bottom: 0%;
-    left: 20%;
-    z-index: -1;
+.social-link a{
+   color:  #7B84DB;
+    text-decoration: none;
+    display:inline;
+    justify-content:space-around;
 }
-.laptop-select{
-    width: 15%;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    right: 20%;
+.social-link a:hover{
+    color:black
 }
-description{
-    text-align: center
-}
-.description h1{
-    font-weight: 400;
-    font-size: 60px;
-    margin-top: 80px;
-    text-align: center;        
-}
-
-.description p{   
-    font-size: 15px;
-    margin-top: 20px; 
-   text-align:center;
-}
-.des{
-   line-height: -1em;
-}
-
-.description img{
-    height: 150vh;
-    position: absolute;
-    left: 10%
-}
-
-
-@keyframes drop {
-    0%{
-        opacity: 0;
-        transform: translateY(-80px);        
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-        }
-    }
-@media screen and (max-width: 1024px){
-    .presentacion{
-        flex-direction: column;
-    }
-    .introduction{
-        margin-top: 5vh;
-        text-align: center;
-    }
-    .intro h1{
-        font-size: 30px;
-    }
-    .intro p{
-        font-size: 18px;
-    }
-    .cta{
-        padding: 10px 0px 0px 0px;
-    }
-    .laptop-select{
-        bottom:;
-        right: 50%;
-        width: 50%;
-        transform: translate(50%, 5%); 
-    }
-    .cover img{
-        height: 80%;
-    }
+.linke{
+    margin: 0 10px
 }
     
+}
+
+.img-about{
+    height:  60vh;
+}
+
+.about-img{
+    height: 40%;
+    position:absolute;
+    right: 20%;
+    margin-top: 10%;
+        
+}
