@@ -1,87 +1,88 @@
-       * {
-           margin: 0;
-           padding: 0;
-           font-family: 'Nunito', sans-serif;
-           box-sizing: border-box;
-       }
-       
-       header {
-           background-image: url(../img/landscape-5289604_1280.jpg);
-           height: 100vh;
-           background-size: cover;
-           background-position: center;
-       }
-       
-       .nav-links .checkbtn {
-           font-size: 30px;
-           color: white;
-           float: right;
-           line-height: 80px;
-           margin-right: 40px;
-           cursor: pointer;
-           display: none;
-           /*  don´t show in the nav-bar*/
-       }
-       
-       .nav-links #check {
-           display: none
-       }
-       
-       .nav-links ul {
-           list-style: none;
-           text-align: center;
-       }
-       
-       .nav-links ul li {
-           display: inline-block;
-           margin: 15px 15px 10px 10px;
-       }
-       
-       .nav-links ul li a {
-           text-decoration: none;
-           color: #fff;
-       }
-       
-       .nav-links ul li a:hover {
-           background-color: #F2BB77;
-           color: #fff;
-           border: 1px solid #F2BB77;
-           padding: 10px 10px 10px 10px;
-           transition: .5s;
-       }
-       
-       ul li.home a {
-           background-color: #F2BB77;
-           color: #fff;
-           border: 1px solid #F2BB77;
-           padding: 5px 10px 5px 10px
-       }
-       
-       .inicial-pag h1 {
-           position: relative;
-           bottom: 40%;
-           left: 25%;
-           margin-top: 170px;
-           margin-bottom: 30px;
-           font-size: 6vh;
-           color: white;
-       }
-       
-       .inicial-pag p {
-           position: relative;
-           bottom: 40%;
-           left: 25%;
-           font-size: 25px;
-           color: white;
-           width: 700px;
-           font-weight: 400
-       }
-       
-       .inicial-pag .space {
-           width: 650px;
-           margin-top: 20px;
-       }
-       /*.inicial-pag button{
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Nunito', sans-serif;
+     box-sizing: border-box;
+ }
+ 
+ header {
+     background-image: url(../img/landscape-5289604_1280.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .nav-links .checkbtn {
+     font-size: 30px;
+     color: white;
+     float: right;
+     line-height: 80px;
+     margin-right: 40px;
+     cursor: pointer;
+     display: none;
+     /*  don´t show in the nav-bar*/
+ }
+ 
+ .nav-links #check {
+     display: none
+ }
+ 
+ .nav-links ul {
+     list-style: none;
+     text-align: center;
+ }
+ 
+ .nav-links ul li {
+     display: inline-block;
+     margin: 15px 15px 10px 10px;
+ }
+ 
+ .nav-links ul li a {
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .nav-links ul li a:hover {
+     background-color: #F2BB77;
+     color: #fff;
+     border: 1px solid #F2BB77;
+     padding: 10px 10px 10px 10px;
+     transition: .5s;
+ }
+ 
+ ul li.home a {
+     background-color: #F2BB77;
+     color: #fff;
+     border: 1px solid #F2BB77;
+     padding: 5px 10px 5px 10px
+ }
+ 
+ 
+ .inicial-pag h1 {
+     position: relative;
+     bottom: 40%;
+     left: 25%;
+     margin-top: 170px;
+     margin-bottom: 30px;
+     font-size: 6vh;
+     color: white;
+ }
+ 
+ .inicial-pag p {
+     position: relative;
+     bottom: 40%;
+     left: 25%;
+     font-size: 25px;
+     color: white;
+     width: 700px;
+     font-weight: 400
+ }
+ 
+ .inicial-pag .space {
+     width: 650px;
+     margin-top: 20px;
+ }
+ /*.inicial-pag button{
     margin-top: 30px 0 0 30px;
     border: 2px solid #F27405;
     background-color: #F27405;
@@ -94,216 +95,323 @@
     color: #fff;
     font-weight:  400;
 }*/
-       
-       .inicial-pag img {
-           height: 50vh;
-           position: absolute;
-           top: 30%;
-           left: 10%;
-           border: 1px solid #fff
-       }
-       
-       .pag-one {
-           background-color: #121212;
-           background-size: cover;
-           height: 800px;
-       }
-       
-       .pag-one h1 {
-           position: absolute;
-           top: 100%;
-           left: 40%;
-           color: #F2C335;
-           margin-top: 25px;
-           text-align: center;
-           font-size: 40px;
-       }
-       
-       .card-one {
-           position: absolute;
-           top: 110%;
-           left: 45%;
-           transform: translate(-50%, 50%);
-           width: 378px;
-           height: 200px;
-           transform-style: preserve-3d;
-           perspective: 200px;
-           transition: 0.5s;
-       }
-       
-       .card-one .front {
-           position: absolute;
-           top: 0;
-           left: 0;
-           width: 100%;
-           height: 100%;
-           background: #000;
-           backface-visibility: hidden;
-           transform: rotateX(0deg);
-           transition: 0.5s;
-       }
-       
-       .card-one:hover .front {
-           transform: rotateX(-180deg)
-       }
-       
-       .card-one .front img {
-           height: 200px;
-           border: 5px solid #F2C335;
-       }
-       
-       .card-one .back {
-           position: absolute;
-           top: 0;
-           left: 0;
-           width: 100%;
-           height: 100%;
-           background: #fff;
-           backface-visibility: hidden;
-           transform: rotateX(180deg);
-           transition: 0.5s;
-       }
-       
-       .card-one:hover .back {
-           transform: rotateX(0deg)
-       }
-       
-       .card-one .back .details .social-media {
-           position: absolute;
-           top: 50%;
-           left: 0;
-           width: 100%;
-           text-align: center;
-           padding: 20px;
-           box-sizing: border-box;
-       }
-       
-       .card-one .back .details {
-           position: absolute;
-           top: 40%;
-           transform: translateY(-50);
-           left: 30;
-           width: 100%;
-           text-align: center;
-           padding: 20px;
-           box-sizing: border-box;
-       }
-       
-       .card-one .back .details h2 {
-           position: relative;
-           bottom: 50px;
-           padding: 0;
-           font-size: 20px;
-           color: #F2AB6D
-       }
-       
-       .social-media {
-           padding: 50px 0px;
-       }
-       /*cor dentro do ícone*/
-       
-       .social-media a {
-           display: inline-block;
-           width: 50px;
-           height: 50px;
-           background: #d2d2d2;
-           color: white;
-           text-decoration: none;
-           border-radius: 50%;
-           /*deixou redondo*/
-           position: relative;
-           bottom: 30px;
-           transition: o.5s;
-       }
-       
-       .social-media a .icon {
-           line-height: 50px;
-           position: relative;
-           bottom: 5%;
-           height: 50px;
-       }
-       
-       .social-media a:hover {
-           background: #F2BB77;
-       }
-       
-       footer {
-           clear: both;
-           height: 100px;
-           width: 100%;
-           background-color: #161717;
-           box-sizing: border-box;
-       }
-       
-       .footer-icon a {
-           display: inline-block;
-           width: 50px;
-           height: 50px;
-           background: #161717;
-           color: white;
-           text-decoration: none;
-           border-radius: 60%;
-           /*deixou redondo*/
-           position: relative;
-           left: 40%;
-           top: 25px;
-           transition: 0.5s;
-           margin-left: 15px;
-       }
-       
-       .footer-icon a img {
-           line-height: 50px;
-           height: 35px;
-           position: relative;
-           left: 13%;
-           top: 13%;
-       }
-       
-       .footer-icon a:hover {
-           background: #D18D1D;
-       }
-       
-       @media (max-width: 1024px) {
-           .nav-links ul li {
-               font-size: 20px;
-           }
-           .nav-links .fas {
-               display: block;
-               color: #fff;
-               margin: 10px 25px;
-               font-size: 22px;
-               cursor: pointer;
-           }
-           .inicial-pag {
-               position: relative;
-               top: 50%;
-               left: 10%;
-           }
-           .inicial-pag h1 {
-               font-size: 50px;
-               width: 300px;
-           }
-           .inicial-pag p {
-               font-size: 40px;
-               width: 300px;
-               font-weight: 400;
-           }
-           .inicial-pag .space {
-               font-size: 40px;
-               margin-top: 30px;
-               width: 300px;
-               font-weight: 400;
-           }
-           .pag-one h1 {
-               text-align: center;
-               font-size: 70px;
-           }
-           .card-one {
-               position: relative;
-               left: 40%;
-               top: 20%;
-           }
-           .card-one .front img {
-               height: 300px
-           }
-       }
+ 
+ .inicial-pag img {
+     height: 50vh;
+     position: absolute;
+     top: 30%;
+     left: 10%;
+     border: 1px solid #fff
+ }
+ 
+ .pag-one {
+     background-color: #121212;
+     background-size: cover;
+     height: 800px;
+ }
+ 
+ .pag-one h1 {
+     position: absolute;
+     top: 100%;
+     left: 40%;
+     color: #F2C335;
+     margin-top: 25px;
+     text-align: center;
+     font-size: 40px;
+ }
+ 
+ .card-one {
+     position: absolute;
+     top: 110%;
+     left: 45%;
+     transform: translate(-50%, 50%);
+     width: 378px;
+     height: 200px;
+     transform-style: preserve-3d;
+     perspective: 200px;
+     transition: 0.5s;
+ }
+ 
+ .card-one .front {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #000;
+     backface-visibility: hidden;
+     transform: rotateX(0deg);
+     transition: 0.5s;
+ }
+ 
+ .card-one:hover .front {
+     transform: rotateX(-180deg)
+ }
+ 
+ .card-one .front img {
+     height: 200px;
+     border: 5px solid #F2C335;
+ }
+ 
+ .card-one .back {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #fff;
+     backface-visibility: hidden;
+     transform: rotateX(180deg);
+     transition: 0.5s;
+ }
+ 
+ .card-one:hover .back {
+     transform: rotateX(0deg)
+ }
+ 
+ .card-one .back .details .social-media {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .card-one .back .details {
+     position: absolute;
+     top: 40%;
+     transform: translateY(-50);
+     left: 30;
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .card-one .back .details h2 {
+     position: relative;
+     bottom: 50px;
+     padding: 0;
+     font-size: 20px;
+     color: #F2AB6D
+ }
+ 
+ .social-media {
+     padding: 50px 0px;
+ }
+ /*cor dentro do ícone*/
+ 
+ .social-media a {
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     background: #d2d2d2;
+     color: white;
+     text-decoration: none;
+     border-radius: 50%;
+     /*deixou redondo*/
+     position: relative;
+     bottom: 30px;
+     transition: o.5s;
+ }
+ 
+ .social-media a .icon {
+     line-height: 50px;
+     position: relative;
+     bottom: 5%;
+     height: 50px;
+ }
+ 
+ .social-media a:hover {
+     background: #F2BB77;
+ }
+.card-two {
+     position: relative;
+     top: 30%;
+     left: 45%;
+     transform: translate(-50%, 50%);
+     width: 378px;
+     height: 200px;
+     transform-style: preserve-3d;
+     perspective: 200px;
+     transition: 0.5s;
+ }
+ 
+ .card-two .front-two {
+     position: relative;
+     top: 30%;
+     left: 0%;
+     width: 100%;
+     height: 100%;
+     background: #000;
+     backface-visibility: hidden;
+     transform: rotateX(0deg);
+     transition: 0.5s;
+ }
+ 
+ .card-two:hover .front-two {
+     transform: rotateX(-180deg)
+ }
+ 
+ .card-two .front-two img {
+     height: 200px;
+     border: 5px solid #F2C335;
+ }
+ 
+ .card-two .back-two {
+     position: relative;
+     bottom: 70%;
+     left: 0%;
+     width: 100%;
+     height: 100%;
+     background: #fff;
+     backface-visibility: hidden;
+     transform: rotateX(180deg);
+     transition: 0.5s;
+ }
+ 
+ .card-two:hover .back-two {
+     transform: rotateX(0deg)
+ }
+ 
+ .card-two .back-two .details-two .social-media-two {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .card-two .back-two .details-two {
+     position: absolute;
+     top: 40%;
+     transform: translateY(-50);
+     left: 30;
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .card-two .back-two .details-two h2 {
+     position: relative;
+     bottom: 50px;
+     padding: 0;
+     font-size: 20px;
+     color: #F2AB6D
+ }
+ 
+ .social-media-two {
+     padding: 50px 0px;
+ }
+ /*cor dentro do ícone*/
+ 
+ .social-media-two a {
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     background: #d2d2d2;
+     color: white;
+     text-decoration: none;
+     border-radius: 50%;
+     /*deixou redondo*/
+     position: relative;
+     bottom: 30px;
+     transition: o.5s;
+ }
+ 
+ .social-media-two a .icon-two {
+     line-height: 50px;
+     position: relative;
+     bottom: 5%;
+     height: 50px;
+ }
+ 
+ .social-media-two a:hover {
+     background: #F2BB77;
+ }
+ 
+ footer {
+     clear: both;
+     height: 100px;
+     width: 100%;
+     background-color: #161717;
+     box-sizing: border-box;
+ }
+ 
+ .footer-icon a {
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     background: #161717;
+     color: white;
+     text-decoration: none;
+     border-radius: 60%;
+     /*deixou redondo*/
+     position: relative;
+     left: 40%;
+     top: 25px;
+     transition: 0.5s;
+     margin-left: 15px;
+ }
+ 
+ .footer-icon a img {
+     line-height: 50px;
+     height: 35px;
+     position: relative;
+     left: 13%;
+     top: 13%;
+ }
+ 
+ .footer-icon a:hover {
+     background: #D18D1D;
+ }
+ 
+ @media (max-width: 1024px) {
+     .nav-links ul li {
+         font-size: 20px;
+     }
+     .nav-links .fas {
+         display: block;
+         color: #fff;
+         margin: 10px 25px;
+         font-size: 22px;
+         cursor: pointer;
+     }
+     .inicial-pag {
+         position: relative;
+         top: 50%;
+         left: 10%;
+     }
+     .inicial-pag h1 {
+         font-size: 50px;
+         width: 300px;
+     }
+     .inicial-pag p {
+         font-size: 40px;
+         width: 300px;
+         font-weight: 400;
+     }
+     .inicial-pag .space {
+         font-size: 40px;
+         margin-top: 30px;
+         width: 300px;
+         font-weight: 400;
+     }
+     .pag-one h1 {
+         text-align: center;
+         font-size: 70px;
+     }
+     .card-one {
+         position: relative;
+         left: 40%;
+         top: 20%;
+     }
+     .card-one .front img {
+         height: 300px
+     }
+ }
