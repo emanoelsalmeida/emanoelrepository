@@ -107,7 +107,7 @@
  .pag-one {
      background-color: #121212;
      background-size: cover;
-     height: 800px;
+     height: 1000px;
  }
  
  .pag-one h1 {
@@ -256,7 +256,7 @@
  }
  
  .card-two .front-two img {
-     height: 200px;
+     height: 220px;
      border: 5px solid #F2C335;
  }
  
@@ -373,10 +373,12 @@
  
  @media (max-width: 1024px) {
      .nav-links ul li {
-         font-size: 20px;
+         font-size: 40px;
+         margin-top:35px; 
+         
      }
      .nav-links .fas {
-         display: block;
+         display:;
          color: #fff;
          margin: 10px 25px;
          font-size: 22px;
@@ -385,21 +387,20 @@
      .inicial-pag {
          position: relative;
          top: 50%;
-         left: 10%;
      }
      .inicial-pag h1 {
          font-size: 50px;
-         width: 300px;
+         width: 600px;
      }
      .inicial-pag p {
-         font-size: 40px;
-         width: 300px;
+         font-size: 50px;
+         width: 600px;
          font-weight: 400;
      }
      .inicial-pag .space {
-         font-size: 40px;
+         font-size: 50px;
          margin-top: 30px;
-         width: 300px;
+         width: 600px;
          font-weight: 400;
      }
      .pag-one h1 {
@@ -409,9 +410,18 @@
      .card-one {
          position: relative;
          left: 40%;
-         top: 20%;
+         top: 10%;
      }
      .card-one .front img {
          height: 300px
+     }
+     .card-two {
+         position: relative;
+         left: 40%;
+         top: 20%;
+         
+     }
+     .card-two .front-two img {
+         height: 19vh; 
      }
  }
