@@ -4,14 +4,14 @@
      font-family: 'Nunito', sans-serif;
      box-sizing: border-box;
  }
- 
+
  header {
      background-image: url(../img/landscape-5289604_1280.jpg);
      height: 100vh;
      background-size: cover;
      background-position: center;
  }
- 
+
  .nav-links .checkbtn {
      font-size: 30px;
      color: white;
@@ -22,26 +22,26 @@
      display: none;
      /*  don´t show in the nav-bar*/
  }
- 
+
  .nav-links #check {
      display: none
  }
- 
+
  .nav-links ul {
      list-style: none;
      text-align: center;
  }
- 
+
  .nav-links ul li {
      display: inline-block;
      margin: 15px 15px 10px 10px;
  }
- 
+
  .nav-links ul li a {
      text-decoration: none;
      color: #fff;
  }
- 
+
  .nav-links ul li a:hover {
      background-color: #F2BB77;
      color: #fff;
@@ -49,15 +49,15 @@
      padding: 10px 10px 10px 10px;
      transition: .5s;
  }
- 
+
  ul li.home a {
      background-color: #F2BB77;
      color: #fff;
      border: 1px solid #F2BB77;
      padding: 5px 10px 5px 10px
  }
- 
- 
+
+
  .inicial-pag h1 {
      position: relative;
      bottom: 40%;
@@ -67,7 +67,7 @@
      font-size: 6vh;
      color: white;
  }
- 
+
  .inicial-pag p {
      position: relative;
      bottom: 40%;
@@ -77,11 +77,12 @@
      width: 700px;
      font-weight: 400
  }
- 
+
  .inicial-pag .space {
      width: 650px;
      margin-top: 20px;
  }
+
  /*.inicial-pag button{
     margin-top: 30px 0 0 30px;
     border: 2px solid #F27405;
@@ -95,7 +96,7 @@
     color: #fff;
     font-weight:  400;
 }*/
- 
+
  .inicial-pag img {
      height: 50vh;
      position: absolute;
@@ -103,13 +104,13 @@
      left: 10%;
      border: 1px solid #fff
  }
- 
+
  .pag-one {
      background-color: #121212;
      background-size: cover;
      height: 1000px;
  }
- 
+
  .pag-one h1 {
      position: absolute;
      top: 100%;
@@ -119,7 +120,7 @@
      text-align: center;
      font-size: 40px;
  }
- 
+
  .card-one {
      position: absolute;
      top: 110%;
@@ -131,7 +132,7 @@
      perspective: 200px;
      transition: 0.5s;
  }
- 
+
  .card-one .front {
      position: absolute;
      top: 0;
@@ -143,16 +144,16 @@
      transform: rotateX(0deg);
      transition: 0.5s;
  }
- 
+
  .card-one:hover .front {
      transform: rotateX(-180deg)
  }
- 
+
  .card-one .front img {
      height: 200px;
      border: 5px solid #F2C335;
  }
- 
+
  .card-one .back {
      position: absolute;
      top: 0;
@@ -164,11 +165,11 @@
      transform: rotateX(180deg);
      transition: 0.5s;
  }
- 
+
  .card-one:hover .back {
      transform: rotateX(0deg)
  }
- 
+
  .card-one .back .details .social-media {
      position: absolute;
      top: 50%;
@@ -178,7 +179,7 @@
      padding: 20px;
      box-sizing: border-box;
  }
- 
+
  .card-one .back .details {
      position: absolute;
      top: 40%;
@@ -189,7 +190,7 @@
      padding: 20px;
      box-sizing: border-box;
  }
- 
+
  .card-one .back .details h2 {
      position: relative;
      bottom: 50px;
@@ -197,12 +198,13 @@
      font-size: 20px;
      color: #F2AB6D
  }
- 
+
  .social-media {
      padding: 50px 0px;
  }
+
  /*cor dentro do ícone*/
- 
+
  .social-media a {
      display: inline-block;
      width: 50px;
@@ -216,18 +218,19 @@
      bottom: 30px;
      transition: o.5s;
  }
- 
+
  .social-media a .icon {
      line-height: 50px;
      position: relative;
      bottom: 5%;
      height: 50px;
  }
- 
+
  .social-media a:hover {
      background: #F2BB77;
  }
-.card-two {
+
+ .card-two {
      position: relative;
      top: 30%;
      left: 45%;
@@ -238,7 +241,7 @@
      perspective: 200px;
      transition: 0.5s;
  }
- 
+
  .card-two .front-two {
      position: relative;
      top: 30%;
@@ -250,16 +253,16 @@
      transform: rotateX(0deg);
      transition: 0.5s;
  }
- 
+
  .card-two:hover .front-two {
      transform: rotateX(-180deg)
  }
- 
+
  .card-two .front-two img {
      height: 220px;
      border: 5px solid #F2C335;
  }
- 
+
  .card-two .back-two {
      position: relative;
      bottom: 70%;
@@ -271,11 +274,11 @@
      transform: rotateX(180deg);
      transition: 0.5s;
  }
- 
+
  .card-two:hover .back-two {
      transform: rotateX(0deg)
  }
- 
+
  .card-two .back-two .details-two .social-media-two {
      position: absolute;
      top: 50%;
@@ -285,7 +288,7 @@
      padding: 20px;
      box-sizing: border-box;
  }
- 
+
  .card-two .back-two .details-two {
      position: absolute;
      top: 40%;
@@ -296,7 +299,7 @@
      padding: 20px;
      box-sizing: border-box;
  }
- 
+
  .card-two .back-two .details-two h2 {
      position: relative;
      bottom: 50px;
@@ -304,12 +307,13 @@
      font-size: 20px;
      color: #F2AB6D
  }
- 
+
  .social-media-two {
      padding: 50px 0px;
  }
+
  /*cor dentro do ícone*/
- 
+
  .social-media-two a {
      display: inline-block;
      width: 50px;
@@ -323,18 +327,18 @@
      bottom: 30px;
      transition: o.5s;
  }
- 
+
  .social-media-two a .icon-two {
      line-height: 50px;
      position: relative;
      bottom: 5%;
      height: 50px;
  }
- 
+
  .social-media-two a:hover {
      background: #F2BB77;
  }
- 
+
  footer {
      clear: both;
      height: 100px;
@@ -342,7 +346,7 @@
      background-color: #161717;
      box-sizing: border-box;
  }
- 
+
  .footer-icon a {
      display: inline-block;
      width: 50px;
@@ -358,7 +362,7 @@
      transition: 0.5s;
      margin-left: 15px;
  }
- 
+
  .footer-icon a img {
      line-height: 50px;
      height: 35px;
@@ -366,74 +370,100 @@
      left: 13%;
      top: 13%;
  }
- 
+
  .footer-icon a:hover {
      background: #D18D1D;
  }
- 
+
  @media (max-width: 1024px) {
      .nav-links ul li {
          font-size: 30px;
-         margin-top:35px; 
-         
+         margin-top: 35px;
+
      }
+
      .nav-links .fas {
-         display:;
+         display: ;
          color: #fff;
          margin: 10px 25px;
          font-size: 22px;
          cursor: pointer;
      }
+
      .inicial-pag {
          position: relative;
          top: 50%;
      }
+
      .inicial-pag h1 {
          font-size: 60px;
          width: 600px;
      }
+
      .inicial-pag p {
          font-size: 50px;
          width: 600px;
          font-weight: 400;
      }
+
      .inicial-pag .space {
          font-size: 50px;
          margin-top: 30px;
          width: 600px;
          font-weight: 400;
      }
-     .pag-one{
+
+     .pag-one {
          height: 1900px;
      }
+
      .pag-one h1 {
          text-align: center;
          font-size: 70px;
          position: relative;
-         top:5%;
+         top: 5%;
          left: -5%;
      }
+
      .card-one {
          position: relative;
          left: 30%;
          top: 10%;
      }
+
      .card-one .front img {
          height: 400px
      }
-     .card-one .back  {
+
+     .card-one .back {
          height: 300px
      }
+
      .card-two {
          position: relative;
          left: 30%;
          top: 20%;
-         
+
      }
+
      .card-two .front-two img {
-         height: 25vh; 
+          width: 750px;
+         height: 24vh;
      }
+
      .card-two .back-two {
-          height: 19vh
+         width: 750px;
+         height: 24vh;
+     }
+
+     footer {
+         height: 150px;
+     }
+
+     .footer-icon a img {
+         height: 6vh;
+     }
+     .footer-icon  a:first-child  img {
+         margin-right: 50px; 
      }
  }
