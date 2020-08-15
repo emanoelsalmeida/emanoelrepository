@@ -403,6 +403,9 @@
          width: 600px;
          font-weight: 400;
      }
+     .pag-one{
+         height: 1900px;
+     }
      .pag-one h1 {
          text-align: center;
          font-size: 70px;
@@ -412,23 +415,23 @@
      }
      .card-one {
          position: relative;
-         left: 40%;
+         left: 30%;
          top: 10%;
      }
      .card-one .front img {
-         height: 300px
+         height: 400px
      }
      .card-one .back  {
          height: 300px
      }
      .card-two {
          position: relative;
-         left: 40%;
+         left: 30%;
          top: 20%;
          
      }
      .card-two .front-two img {
-         height: 19vh; 
+         height: 25vh; 
      }
      .card-two .back-two {
           height: 19vh
