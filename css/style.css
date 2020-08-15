@@ -373,7 +373,7 @@
  
  @media (max-width: 1024px) {
      .nav-links ul li {
-         font-size: 40px;
+         font-size: 30px;
          margin-top:35px; 
          
      }
@@ -389,7 +389,7 @@
          top: 50%;
      }
      .inicial-pag h1 {
-         font-size: 50px;
+         font-size: 40px;
          width: 600px;
      }
      .inicial-pag p {
@@ -398,7 +398,7 @@
          font-weight: 400;
      }
      .inicial-pag .space {
-         font-size: 50px;
+         font-size: 30px;
          margin-top: 30px;
          width: 600px;
          font-weight: 400;
